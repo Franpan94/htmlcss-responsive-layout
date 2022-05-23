@@ -1,9 +1,165 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+header{
+    background-color: dodgerblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.container{
+    width: 90%;
+    margin:auto
+}
+
+.color-padding{
+    color: white;
+    padding: 10px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-none{
+    display: none;
+}
+
+li{
+    list-style: none;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 20px
+}
+.container2{
+    width: 80%;
+    margin: auto;
+}
+
+.minicontainer{
+    background-color: lightblue;
+    color: dodgerblue;
+    margin-top: 100px;  
+    border-radius: 20px;  
+    padding-top: 20px;
+}
+
+.sub-minicontainer{
+    width: 70%;
+    margin: auto;
+}
+
+.minicontainer p{
+    color: black;
+    margin-top: 20px;
+}
+
+.container3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container3 a{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+.phone {
+    width: 60%;
+    margin: auto;
+}
+
+.phone img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.margin{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.photo{
+    font-size: 100px;
+}
+
+.container4{
+    width: 85%;
+    margin: auto;
+    background-color: rgb(147, 112, 219);
+    margin-top: 50px;
+}
+
+.planning1{
+     color: white;
+     width: 80%;
+     margin: auto;
+}
+
+.planning1 img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.planning1 h1{
+    padding-top: 40px;
+}
+
+.planning1 p{
+    padding-top: 30px;
+}
+
+.planning2{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.planning2 img{
+    width: 100%;
+}
+
+.arrow{
+    border-radius: 50%;
+    background-color: rgb(147, 112, 219); 
+    padding: 20px;
+    display: inline-block;
+    color: blueviolet;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+/* RESPONSIVE */
 @media all and (min-width: 768px){
     
 }
