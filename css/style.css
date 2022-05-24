@@ -198,14 +198,14 @@ a{
     border-radius: 20px;
 }
 
-.testimonial1 img{
+.photo img{
     width: 100%;
     border-radius: 100%;
     height: 350px;
     object-fit:cover;
 }
 
-.testimonial1 h2{
+.text h2{
     color: white;
 }
 
@@ -228,6 +228,10 @@ a{
     padding: 20px;
     margin-top: 20px;
     border-radius: 20px;
+}
+
+.planning3 h1{
+    font-size: 50px;
 }
 
 .planning3 h1,h3,p{
@@ -317,6 +321,7 @@ a{
 
 /* RESPONSIVE */
 @media all and (min-width: 768px){
+    
     .flex{
         display: flex;
         justify-content: space-between;
@@ -341,11 +346,35 @@ a{
         display: flex;
     }
 
-    .testimonial1 img{
-        width: 60%;
-        height: 150px;
+    .photo img{
+        width: 80%;
+        height: 100%;
     }
 
+    .text h2{
+        text-align: left;
+    }
+    
+    .planning3{
+        width: calc(95% - 10px);
+    }
+
+    .boy{
+        width: calc(50% - 20px);
+    }
+
+    .about{
+        width: calc(45% - 40px);
+        position: relative;
+    }
+
+    .position{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    }
+
+  
    
 
     
