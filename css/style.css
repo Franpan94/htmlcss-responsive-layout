@@ -73,7 +73,7 @@ a{
     margin-top: 100px;  
     border-radius: 20px;  
     padding-top: 20px;
-    padding-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .sub-minicontainer{
@@ -89,12 +89,8 @@ a{
 .container3{
     text-align: center;
     padding-top: 30px;
-}
-
-.container3 a{
     background-color: dodgerblue;
     color: white;
-    padding: 5px;
     border-radius: 20px;
     display: inline-block;
     padding: 5px 30px;
@@ -216,6 +212,13 @@ a{
     padding: 20px 0;
 }
 
+.supercontainer6{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(149, 147, 230);
+    padding: 20px 0;
+}
+
 .center{
     text-align: center;
 }
@@ -319,6 +322,13 @@ a{
     color: rgb(149, 147, 230);
 }
 
+.container8{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(149, 147, 230);
+    padding: 20px 0;
+}
+
 /* RESPONSIVE */
 @media all and (min-width: 768px){
     
@@ -327,19 +337,24 @@ a{
         justify-content: space-between;
     }
 
+    .b-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .supercontainer2{
-        width: calc(60% - 20px);
+        width: 60%;
     }
 
     .container2{
-        width: calc(35% - 20px);
+        width: 35%;
         display: flex;
-        height: 710px;
+        height: 690px;
         padding-top: 50px;
     }
 
     .minicontainer2{
-        width: calc(35% - 20px);
+        width: 30%
     }
 
     .testimonial1{
@@ -374,13 +389,87 @@ a{
     right: 0;
     }
 
-  
-   
-
-    
-
+    .container6{
+        width: calc(100% / 2);
+    }
 }
 
 @media all and (min-width: 992px){
     
+    .supercontainer2{
+        margin: 0 ;
+    }
+
+    .minicontainer{
+        padding: 10px;
+    }
+
+    .c-flex{
+        display: flex;
+    }
+
+    .container i{
+        display: none;
+    }
+
+    .d-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .d-none{
+        display: block;
+    }
+
+    .mainsize{
+        width: 60%;
+        margin: auto;
+    }
+
+    .container2{
+        height: 450px;
+    }
+
+    .container4{
+        height: 700px;
+    }
+    .planning1 {
+        width: 25%;
+        margin: 0 auto;
+    }
+
+    .planning1 h1{
+        padding-top: 100px;
+    }
+
+    .planning2 {
+        width: 25%;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    
+    .mainsize2{
+        width: 80%;
+        margin: auto;
+    }
+
+    .photo{
+        width: 75%;
+    }
+
+    .b-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mainsize3{
+        width: 90%;
+        margin: auto;
+    }
+
+    .container6{
+        width: calc(100% / 3);
+    }
 }
