@@ -307,6 +307,10 @@ a{
     padding: 5px 20px;
 }
 
+footer{
+    width: 100%;
+}
+
 .black{
     width: 100%;
     margin: auto;
@@ -324,7 +328,6 @@ a{
 
 .container8{
     width: 100%;
-    margin: auto;
     background-color: rgb(149, 147, 230);
     padding: 20px 0;
 }
